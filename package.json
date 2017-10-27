@@ -1,0 +1,24 @@
+{
+  "name": "nodecrawler_web",
+  "version": "1.0.0",
+  "description": "A web based version of my nodejs web crawler.\r 20171027",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "web",
+    "crawler",
+    "server"
+  ],
+  "author": "zhr",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "iconv-lite": "^0.4.19",
+    "morgan": "^1.9.0"
+  }
+}
